@@ -18,12 +18,10 @@ class Leaderboard extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6 col-md-offset-3">
-            <div className="well">
               <h1 className="text-center">Leaderboard</h1>
               {this.props.data.allUsers.map((user) =>
               <Leaders key={user.id} user={user} />
               )}
-            </div>
           </div>
         </div>
       </div>

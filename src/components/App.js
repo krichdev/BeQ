@@ -59,7 +59,7 @@ class App extends React.Component {
           </div>
         </nav>
         <ListPage />
-
+        <Leaderboard />
       </div>
     )
   }

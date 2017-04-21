@@ -38,7 +38,6 @@ ReactDOM.render((
       <Route path='signup' component={CreateUser} />
       <Route path='profile' component={Profile} />
       <Route path=':id' component={PostView} id=':id' />
-      <Route path='leaders' component={Leaderview} />
     </Router>
   </ApolloProvider>
   ),
