@@ -2,6 +2,7 @@ import React from 'react'
 import Leaders from '../components/Leaders'
 import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
+import { withRouter } from 'react-router'
 
 class Leaderboard extends React.Component {
   

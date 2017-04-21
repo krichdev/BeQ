@@ -1,4 +1,5 @@
 import React from 'react'
+import { withRouter } from 'react-router'
 
 export default class Leaders extends React.Component {
   static propTypes = {

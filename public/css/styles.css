@@ -11,6 +11,20 @@
   color: black;
 }
 
+.navbar-default .navbar-nav .active a {
+  background-color: black;
+  color: white;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+  background-color: black;
+  color: #fdd500;
+}
+
+.navbar-default .navbar-nav li a {
+    color: black;
+}
+
 .navbar {
   border-radius: 0px;
   border: none;
